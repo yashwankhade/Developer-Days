@@ -1,0 +1,124 @@
+body{
+    /* font-family: ; */
+    display: flex;
+    /* font-weight: 800; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ecf0f3;
+}
+
+.container{
+    width:45%;
+    height:60vh;
+    padding:10px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px #cbcde1,
+    12px 12px 20px #cbcde1;
+}
+
+.display #res{
+    width:97%;
+    height:70px;
+    font-size:35px;
+    outline:none;
+    border:none;
+    text-align: right;
+    padding-right: 0.5em;
+    border-radius:6px;
+    box-shadow:;
+}
+
+.btns{
+    width:100%;
+    margin-top:1.5em;
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    flex-direction:column;
+}
+
+.btns .row button{
+    font-weight: 600;
+    width:5rem;
+    font-size: 18px;
+    height:35px;
+    margin:5px;
+    border-radius:4px;
+    border:none;
+    outline:none;
+    box-shadow: 5px 5px 5px #cbcde1,
+    -5px -5px 5px #ffffff;
+}
+
+@media only screen and (max-width:476px){
+    .container{
+        width:55vw;
+    }
+
+    .btns .row button{
+        width:2rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width:600px){
+    .container{
+        width:85vw;
+    }
+
+    .btns .row button{
+        width:3.5rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container{
+        width:85vw;
+    }
+
+    .btns .row button{
+        width:3.5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        width:45vw;
+        height:55vh;
+    }
+
+    .btns .row button{
+        width:3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        width:45vw;
+        height:55vh;
+    }
+
+    .btns .row button{
+        width:3.5rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container{
+        width:45%;
+    }
+
+     
+
+    .btns .row button{
+        width:5rem;
+    }
+}
