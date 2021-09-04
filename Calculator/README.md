@@ -2,7 +2,7 @@
 
 ## Calculator using Javascript
 
-### Live at calculator-developer.netlify.app
+### [Live Demo](https://www.calculator-developer.netlify.app)
 
 # Demo
 
